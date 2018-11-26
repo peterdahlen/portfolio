@@ -162,9 +162,9 @@ button:focus {
 .modal-content {
     background-color: #fefefe;
     margin: 40px auto; 
-    padding: 2%;
+    padding: 4%;
     border: 1px solid #888;
-    width: 80%; 
+    width: 75%; 
 }
 
 .close {
@@ -200,10 +200,14 @@ Mobile
 }
 
 @media (max-width: 768px) {
+    .modal > h4 {
+        text-align: none;
+        text-justify: none;
+    }
     .container {
         width: 96%;
     }
     .modal-content {
-        width: 85%;
+        width: 80%;
     }
 }
