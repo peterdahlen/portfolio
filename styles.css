@@ -7,8 +7,6 @@
 body {
     font-family: 'Muli', sans-serif;
     position: relative;
-    text-align: justify;
-    text-justify: inter-word;
 }
 
 .container {
@@ -17,6 +15,11 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Abril Fatface', cursive;
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 a {
@@ -200,10 +203,6 @@ Mobile
 }
 
 @media (max-width: 768px) {
-    .modal > h4 {
-        text-align: none;
-        text-justify: none;
-    }
     .container {
         width: 96%;
     }
