@@ -72,11 +72,15 @@ button:focus {
     outline: 0px solid transparent;
 }
 
-/********** Media *********/
+/********** Skills *********/
 
-.media img {
+.skills {
+    margin: auto; 
+}
+
+.skills img {
     height: 4rem;
-    margin-top: 3em;
+    margin: 1.5em;
 }
 
 /********** About **********/
@@ -93,6 +97,21 @@ button:focus {
 
 .avatar img {
     height: 15rem;
+}
+
+.quotes {
+    padding-top: 40px; 
+    padding-bottom: 40px; 
+}
+
+#quote {
+    font-size: 2.5rem; 
+    color: rgba(0,0,0,.1); 
+}
+
+.center {
+    margin: auto;
+    align-content: center; 
 }
 
 /********** Projects **********/
@@ -208,5 +227,8 @@ Mobile
     }
     .modal-content {
         width: 80%;
+    }
+    .right {
+        text-align: right; 
     }
 }
