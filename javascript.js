@@ -50,3 +50,9 @@ $(function() {
   }
 
 });
+
+function calculateAge(birthYear) {
+  var currentYear = new Date().getFullYear();
+  return currentYear - birthYear;
+}
+document.getElementById("calculateAge").innerHTML = calculateAge(1982);

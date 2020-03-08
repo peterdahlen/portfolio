@@ -65,7 +65,7 @@
         </div>
         <div class="row">
             <div class="col-md-6 mb-5">
-                <p>Peter Dahlén, 36 år gammal. Född och uppvuxen i Trelleborg men bor idag söder om Helsingborg i vackra Rydebäck med fru och dotter.<br>
+                <p>Peter Dahlén, <span id="calculateAge"></span> år gammal. Född och uppvuxen i Trelleborg men bor idag söder om Helsingborg i vackra Rydebäck med fru och dotter.<br>
                 Efter många år inom service, restaurang (McDonald's) och försäljning (GameStop) så valde jag 2017 att sadla om utbilda mig inom webb.<br>
                 Valet föll på distansutbildningen Mobil Handel inom Malmö Yrkeshögskolas regi. Examen är planerad till december 2018.<br>
                 Några ord som beskriver mig är noggran, lojal, ordningsam, rättvis, hjälpsam, lojal och upprepande.<br>
@@ -94,6 +94,25 @@
         </div>
     </div><!--Quotes-->
 
+    <div class="container work" id="school">
+        <div class="row">
+            <div class="offset-md-3 col-md-9 mb-3">
+                <h3>Utbildning</h3>
+            </div> 
+        </div> <!--Row-->
+        <div class="row">
+            <div class="col-md-3 text-md-right mb-md-4">
+                <h4>2017-2018</h4>
+            </div>
+            <div class="col-md-9 mb-4">
+                <h5>Mobil Handel, Malmö Yrkeshögskola</h5>
+                Under utbildningen gick vi kurserna Säljande Design, Marknadsföring och Försäljning samt Programmering. <br>
+                Jag fick lära mig om bland annat HTML5, CSS3, WordPress, WooCommerce, Google Analytics, Google Ads, SEO, JavaScript, GitHub, React och Redux. <br>
+                Paralellt med utbildningen så har jag även lärt mig jQuery och Bootstrap. 
+            </div>
+        </div>
+    </div>
+
     <div class="container work" id="work">
         <div class="row">
             <div class="offset-md-3 col-md-9 mb-3 mt-3">
@@ -101,13 +120,6 @@
             </div> 
         </div> <!--Row-->
         <div class="row">
-            <div class="col-md-3 text-md-right mb-md-4">
-                <h4>2019-nu</h4>
-            </div>
-            <div class="col-md-9 mb-4">
-                <h5>Frontend-utvecklare, Unikum Datasystem AB, Lund</h5>
-                Ingår i teamet som jobbar med modulen för e-handel i Unikums affärssystem Pyramid. HTML, CSS och Javascript ingår i den dagliga verksamheten.
-            </div>
             <div class="col-md-3 text-md-right mb-md-4">
                 <h4>2012-2017</h4>
             </div>
@@ -138,25 +150,6 @@
             </div>
         </div> <!--Row-->
     </div> <!--Container / Work-->
-        
-        <div class="container work" id="school">
-        <div class="row">
-            <div class="offset-md-3 col-md-9 mb-3 mt-3">
-                <h3>Utbildning</h3>
-            </div> 
-        </div> <!--Row-->
-        <div class="row">
-            <div class="col-md-3 text-md-right mb-md-4">
-                <h4>2017-2018</h4>
-            </div>
-            <div class="col-md-9 mb-4">
-                <h5>Mobil Handel, Malmö Yrkeshögskola</h5>
-                Under utbildningen gick vi kurserna Säljande Design, Marknadsföring och Försäljning samt Programmering. <br>
-                Jag fick lära mig om bland annat HTML5, CSS3, WordPress, WooCommerce, Google Analytics, Google Ads, SEO, JavaScript, GitHub, React och Redux. <br>
-                Paralellt med utbildningen så har jag även lärt mig jQuery och Bootstrap. 
-            </div>
-        </div>
-    </div>
 
     <div class="container projects" id="projects">
         <div class="row">
@@ -180,7 +173,7 @@
                         <div class="row">
                             <div class="col-md-7 mb-5">
                                 <h4>Examensarbete, Mionix</h4>
-                                <p>Jag började med att öppna terminalen och installerade create-react-app med hjälp av npm (Node Package Manager).      Filerna och mapparna som installerades innehöll onödiga filer så dessa rensades bort.<br> 
+                                <p>Jag började med att öppna terminalen och installerade create-react-app med hjälp av npm (Node Package Manager. Filerna och mapparna som installerades innehöll onödiga filer så dessa rensades bort.<br> 
                                     Nästa steg blev att först infogade några statiska produktbilder. Dessa byggde jag sedan in i react-slick, en komponent som visar bildspel i React. Vidare uppdaterade jag navigationsknapparna för nästa/föregående-bild med egna knappar som är mer i linje med företagets grafiska profil. Varje bildspel fick också en etikett för att visa vad som är unikt med just denna produkt, dessa placerades ut i bildspelet med hjälp av CSS. Produktnamn och en köpknapp placerades också ut med hjälp av CSS. <br>
                                     Vid klick på bildspelet förs besökaren vidare till en produktsida för just den produkten, så jag installerade react-router-dom i projektet via terminalen. Alla komponenter importerades sedan i App.js. <br>
                                     Jag kodar sedan en statisk produktsida. Här upptäcker jag dock ett problem. Problemet består i att besökaren behåller sin position när hen klickar in på en produktsida. Här ska besökaren så klart hamna överst på sidan igen. Det visar sig vara ett känt problem i React och det fanns färdiga lösningar i form av komponenten ScrollToTop.jsx. <br>
